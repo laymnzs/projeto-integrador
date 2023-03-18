@@ -1,6 +1,6 @@
 # projeto-integrador-backend
 
-📖 **SOBRE O PROJETO**
+📖 **SOBRE O PROJETO:**
 
 Último projeto do Bootcamp Full Stack da Labenu consiste em uma rede social chamada de Labeddit, onde o usúario consegue interagir das seguintes formas:
 
