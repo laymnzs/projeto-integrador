@@ -1,5 +1,5 @@
-/*import axios from 'axios';
-export const BASE_URL = "https://";
+import axios from 'axios';
+export const BASE_URL = "https://documenter.getpostman.com/view/24461561/2s93RRwDcg";
 
 
 export const Login = async (body) =>{
@@ -15,9 +15,9 @@ export const Signup = async (body) => {
 
 
 export const Posts = async () => {
-    const {data} = await axios.get(`${BASE_URL}/posts`)
+    const {data} = await axios.get(`${BASE_URL}/users/posts`)
     return data;
-}*/
+}
 
 
 
