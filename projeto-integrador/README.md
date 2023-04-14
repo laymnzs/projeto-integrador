@@ -3,7 +3,7 @@
 O Labeddit é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá interagir das seguintes forma: fazendo login, se cadastrando, comentando, curtindo e discurtindo!
 
 **DEPLOY FRONT-END:** 
-Para acessar o deploy front-end, [aqui!] (https://github.com/laymnzs/projeto-integrador-backend)
+Para acessar o deploy front-end, [aqui!](https://github.com/laymnzs/projeto-integrador-backend)
 
 
 
