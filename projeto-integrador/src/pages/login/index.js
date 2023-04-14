@@ -25,14 +25,13 @@ export const LoginPage = () => {
  const [isEmailValid, setEmailValid] = useState(true);
  const [isPasswordValid, setIsPasswordValid] = useState(true);
 
-
-  const onSubmit =  async (e) => {
+const onSubmit =  async (e) => {
       e.preventDefault();
       console.log(form);
       setEmailValid(validateEmail(form.email));
       setIsPasswordValid(validatePassword(form.password));
 
-      try{
+      /*try{
          const { token } = isEmailValid && isPasswordValid && await Login ({
           email: form.email,
           password: form.password
@@ -44,7 +43,7 @@ export const LoginPage = () => {
         console.log(e)
         alert(e.response.data);
         
-      }
+      }*/
       
     }
 
