@@ -1,12 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {LoginPage, LogoutPage, SignupPage, FeedPage, AddCommentPage, CommentDetail, } from "../pages";
-import { Header } from "../components";
+import { Header } from "../components/header/index";
 
 export const Router = () => {
     //exportando componente
     return(
         <BrowserRouter>
-            <Header />
         <Routes>
             <Route path="/login" element={<LoginPage/>}/>
             <Route path="/logout" element={<LogoutPage/>}/>

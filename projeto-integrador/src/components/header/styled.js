@@ -1,10 +1,38 @@
-import styled from "styled-components";
+/*import styled from "styled-components";
+
 
 export const HeaderStyled = styled.div`
-    height: 10vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+p {
+    
+    position: relative;
+    display:flex;
+    font-size: 16px;
+    font-weight:300;    
+    margin-left: 610px;
+    margin-top: 20px;
+    
+} 
+
+ img {
+    position: relative;
+    display:flex;
+    margin-left: 650px;
+    margin-top: 80px;
+    justify-content: center;
     align-items: center;
-`;
+
+
+}
+
+div {
+    position: relative;
+    display:flex;
+    margin-left: -600px;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+`;*/
+
+
