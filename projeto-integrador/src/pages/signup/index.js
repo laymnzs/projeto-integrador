@@ -16,6 +16,7 @@ import { useNavigate } from 'react-router-dom';
 import { Signup } from "../../constants/index"
 
 
+
 export const SignupPage = () => {
   const navigate = useNavigate();
   
@@ -36,7 +37,7 @@ export const SignupPage = () => {
       setEmailValid(validateEmail(form.email));
       setIsPasswordValid(validatePassword(form.password));
       setIsNameValid(validateName(form.name))
-      try{
+      /*try{
         const { token } = isNameValid && isEmailValid && isPasswordValid && await Signup ({
          email: form.email,
          password: form.password,
@@ -50,7 +51,7 @@ export const SignupPage = () => {
       console.log(e)
        alert(e.response.data.message);
        
-     }
+     }*/
     }
 
 
